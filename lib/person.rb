@@ -15,12 +15,9 @@ class Person
         @happiness.clamp(0,10)
     end
 
-   
-
     def hygiene
         @hygiene.clamp(0,10)   
     end
-
 
     def happy?
         if happiness > 7
@@ -42,8 +39,6 @@ class Person
         @bank_account += salary
         "all about the benjamins"
     end
-
-
 
     def take_bath
         self.hygiene += 4
@@ -75,8 +70,6 @@ class Person
             "blah blah blah blah blah"   
         end
     end
-
-
 end
 
 #rob = Person.new("Rob")
